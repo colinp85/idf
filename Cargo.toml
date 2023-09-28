@@ -1,0 +1,27 @@
+[package]
+name = "idf"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/colinp85/idf"
+description = "A Heterogeneous Map Implementation"
+
+[lib]
+name = "idf"
+path = "src/lib.rs"
+
+[dependencies]
+chrono = "0.4.26"
+# Add your dependencies here
+
+[dev-dependencies]
+# Add your dev dependencies here
+
+[build-dependencies]
+# Add your build dependencies here
+
+[features]
+# Define features and their dependencies here
+
+[workspace]
+members = []
